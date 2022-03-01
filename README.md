@@ -1,1 +1,11 @@
-# homework-week1
+<html>
+<head>
+</head>
+<body>
+<?php
+echo "Hello,World!"
+?>
+  
+</body>
+  
+</html>  
