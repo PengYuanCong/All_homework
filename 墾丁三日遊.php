@@ -33,6 +33,7 @@ required>
 <p>T-shirt color:<input type="text" name="color"></p>
 <p>Birthday:<input type="text" name="birthday"></p>
 <p>Tickets:<input type="text" name="tickets" value="number"></p>
+<p>T-shirt size 對照表</p>
 <table border="1">
     <tr><td>&nbsp&nbsp;</td><td>S</td><td>M</td><td>L</td><td>XL</td></tr>
     <tr><td>長</td><td>&nbsp&nbsp;</td><td>&nbsp&nbsp;</td><td>&nbsp&nbsp;</td><td>&nbsp&nbsp;</td></tr>
