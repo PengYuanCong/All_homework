@@ -9,8 +9,12 @@
 <p>2.Name:</p><p><input type="text" name="name"></p>
 <p>email:</p><p><input type="text" name="email"></p>
 <p>telphone:</p><p><input type="text" name="telphone"></p>
-<p>Gender:</p><p><input type="radio" name="gender" value="男"></p><p><input type="radio" name="gender" value="女"></p>
-<p>Food Performance</p><p><input type="checkbox" name="food" value="烤肉"></p><p><input type="checkbox" name="food" value="火鍋"></p>
+<p>Gender:</p>
+<p><input type="radio" name="gender" value="男">男</p>
+<p><input type="radio" name="gender" value="女">女</p>
+<p>Food Performance</p>
+<p><input type="checkbox" name="food" value="烤肉">烤肉</p>
+<p><input type="checkbox" name="food" value="火鍋">火鍋</p>
 <p>T-shirt Size</p>
 <select>
 <option>S</option>
