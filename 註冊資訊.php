@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>
+            註冊資訊
+        </title>
+    </head>
+    <body>
+        <form action="登入.php" method="POST">
+            <h1>註冊資訊</h1>
+            一、開學日:X月XX日
+            二、註冊規定：逾開學日後第二星期結束前，尚未完成註冊者，得令退學，但情況特殊經專案請准延緩註冊者，不在此限。
+            <table>
+                <tr>
+                    <td>日期</td>
+                    <td>辦理事項</td>
+                    <td>說明</td>
+                    <td>承辦單位</td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
