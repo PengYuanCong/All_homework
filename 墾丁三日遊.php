@@ -1,16 +1,36 @@
+<?php
+session_start();
+
+if(isset($_SESSION['login'])){
+    if($_SESSION['login']=="Yes"){
+        echo "<a href='logout.php'>登出系統</a>";
+    }else{
+        echo "非法進入系統<br/>";
+        echo "<a href='登入.php'>回登入頁</a>";
+        exit();
+    }
+}else{
+    echo "非法進入系統<br/>";
+    echo "<a href='登入.php'>回登入頁</a>";
+    exit();
+}
+
+?>
+
+
 <html>
-<head>
-<title>墾丁三日遊</title>
-<body bgcolor="#FFF0F5">
-<form action="register.php" method="post">
-<table border="3" align="center" width="30%">
-<h1 align="center">墾丁三日遊報名資料</h1>
-<div><b><center><font size=6 color="#87CEFA">1.行程內容</font></b></div></center>
-<center><select name="route">
-    <option value="行程A;推薦年齡18~28歲">行程A;推薦年齡18~28歲</option>
-    <option value="行程B;推薦年齡29~40歲">行程B;推薦年齡29~40歲</option>
-    <option value="行程C;推薦年齡41~70歲">行程C;推薦年齡41~70歲</option>
-</select></center><br/>
+    <head>
+    <title>墾丁三日遊</title>
+    <body bgcolor="#FFF0F5">
+    <form action="register.php" method="post">
+        <table border="3" align="center" width="30%">
+        <h1 align="center">墾丁三日遊報名資料</h1>
+        <div><b><center><font size=6 color="#87CEFA">1.行程內容</font></b></div></center>
+        <center><select name="route">
+            <option value="行程A;推薦年齡18~28歲">行程A;推薦年齡18~28歲</option>
+            <option value="行程B;推薦年齡29~40歲">行程B;推薦年齡29~40歲</option>
+            <option value="行程C;推薦年齡41~70歲">行程C;推薦年齡41~70歲</option>
+        </select></center><br/>
 
 <br/>
 <div><b><center><font size=6 color="#87CEFA">2.Name:<input type="text" name="name"></b><br/>
